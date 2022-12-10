@@ -1,9 +1,12 @@
 import React from "react";
+import App from "./App";
+import Topbar from "./Topbar";
 
 const Dashboard = () => {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="">
+      <Topbar />
+      <App />
     </div>
   );
 };
