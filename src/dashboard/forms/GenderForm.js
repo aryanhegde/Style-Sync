@@ -2,13 +2,11 @@ import { Fragment, useState } from "react";
 import { Listbox, Transition } from "@headlessui/react";
 import { CheckIcon, ChevronUpDownIcon } from "@heroicons/react/20/solid";
 
-let exportGender = "";
-
 const person = [{ gender: "Male" }, { gender: "Female" }, { gender: "Others" }];
 
 function GenderForm(gender, setGender) {
   [gender, setGender] = useState(person[0]);
-  console.log("ajks " + gender);
+  console.log(gender);
   return (
     <div className="">
       <Listbox value={gender} onChange={setGender}>

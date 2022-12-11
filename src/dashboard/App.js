@@ -5,6 +5,7 @@ import AgeGroupForm from "./forms/AgeGroupForm";
 import SkinColor from "./forms/SkinColor";
 import Ocassion from "./forms/OccasionForm";
 import BodyType from "./forms/BodyType";
+import Form from "./forms/Form";
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
@@ -20,7 +21,7 @@ const App = () => {
       <h1 className="text-3xl font-bold pt-8 text-center">
         Your Personal Virtual Stylist
       </h1>
-      <div className="flex  flex-col">
+      {/* <div className="flex  flex-col">
         <div className="pt-8 flex justify-start items-center">
           <p className="text-slate-700 px-4">Select Your Gender:</p>
         </div>
@@ -41,8 +42,11 @@ const App = () => {
       <div className="pt-8 flex justify-start items-center">
         <p className="text-slate-700 px-4">Select Your Body Type:</p>
       </div>
-      <BodyType />
-      <div className="bg-gray-900 m-12">
+      <BodyType /> */}
+
+      <Form />
+
+      {/* <div className="bg-gray-900 m-12">
         <h1 className="text-xl text-center text-white p-4">Results:</h1>
         <div className="absolute inset-y-0 right-0 flex justify-center items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
           <button
@@ -76,7 +80,7 @@ const App = () => {
             <p>{result}</p>
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
