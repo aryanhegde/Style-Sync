@@ -105,7 +105,7 @@ const Hero = () => {
               <img
                 src={shopping}
                 alt=""
-                className="w-[55%] h-auto mt-20 mb-20 ml-0 shadow-2xl rounded-xl lg:mb-0 lg:h-full xl:-ml-12 img-editable"
+                className="w-[55%] h-auto mt-0 mb-20 ml-0 shadow-2xl rounded-xl lg:mb-0 lg:h-full xl:-ml-12 img-editable"
               />
             </div>
           </div>

@@ -24,12 +24,12 @@ const Features = () => {
               who helps you find clothes to suit your event or occasion.
             </p>
             <div class="flex items-center">
-              <button
-                type="submit"
+              <a
+              href='/dashboard'
                 class="inline-flex items-center justify-center h-12 px-6 mr-6 font-medium text-white transition duration-200 rounded shadow-md bg-blue-600 primary_button_background primary_button_text focus:shadow-outline focus:outline-none btn-editable editable"
               >
                 Get started
-              </button>
+              </a>
               <a
                 href="/"
                 aria-label=""

@@ -7,7 +7,7 @@ import Select from "@mui/material/Select";
 
 const { Configuration, OpenAIApi } = require("openai");
 const configuration = new Configuration({
-  apiKey: "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",
+  apiKey: "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",
 });
 const openai = new OpenAIApi(configuration);
 

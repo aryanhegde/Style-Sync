@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="bg-slate-100">
       <h1 className="text-3xl font-bold py-8 text-center">
-        Your Personal Virtual Stylist
+        Your Personal AI Stylist
       </h1>
 
       <MuiForm />
